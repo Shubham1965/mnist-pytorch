@@ -56,6 +56,7 @@ opt = Adam(clf.parameters(), lr = 1e-3)
 you should get the following loss metrics
 
 2. Convolutional neural netowork (CNN):
+
 If you fix the batch size to 32 as given below,
 ```
 dataset = DataLoader(train, batch_size=32, shuffle=True)
