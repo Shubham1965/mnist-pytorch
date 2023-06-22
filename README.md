@@ -4,7 +4,7 @@ The MNIST dataset is quite the state-of-the-art. It was used to understand two t
 
 
 
-**Goals:**
+## Goals:
 1. To get familiar with basic pytorch syntax.
 2. Understand the concept of training, validation, and testing. 
 3. Use the basic features to create fully connected and convolutional neural networks.
@@ -13,7 +13,7 @@ The MNIST dataset is quite the state-of-the-art. It was used to understand two t
 
 
 
-**Try it yourself:**
+## Try it yourself:
 1. Make sure to make a new environment file using the following command.
 ```
 python -m venv .venv
@@ -29,7 +29,7 @@ pip install -r requirements.txt
 
 
 
-**Test Run:**
+## Test Run:
 1. Fully connected neural network (FCNN):
    
 If you fix the batch size to 32 as given below,
@@ -56,7 +56,6 @@ opt = Adam(clf.parameters(), lr = 1e-3)
 you should get the following loss metrics
 
 2. Convolutional neural netowork (CNN):
-2. 
 If you fix the batch size to 32 as given below,
 ```
 dataset = DataLoader(train, batch_size=32, shuffle=True)
